@@ -2,7 +2,7 @@ name: "Hyperion"
 version: "latest"
 slug: "hyperion"
 description: "Hyperion NG via image GHCR (mode host, ingress, devices USB/vidéo/série)"
-url: "https://github.com/MichelBaie/homeassistant-addons/tree/main/hyperion"
+url: "https://github.com/tbringuier/homeassistant-addons/tree/main/hyperion"
 arch:
   - amd64
   - aarch64
@@ -25,4 +25,4 @@ map:
     read_only: false
     path: /config
 
-image: "ghcr.io/michelbaie/hyperionng-dockerized"
+image: "ghcr.io/tbringuier/hyperionng-dockerized"
